@@ -1,22 +1,124 @@
 body{
-	background-color: #fff;
+	background-color: #c6ced6;
 	margin: 0 auto;
 }
 
 header{
-	background-color: #466995;
+	background-color: #693f7b;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+ul{
+	margin: 20px auto;
+	padding: 0 20px;
 }
 li {
 	color: #fff;
-	font-size: 14px;
+	font-weight: 300;
+	font-size: 16px;
+	display: inline-block;
+	width: 70px;
 }
 li:hover{
 	color: #fff;
 }
-.welcome{
-	background-color: #DBE9EE;
+
+footer {
+  background-color: #338984;
+  color: #fff;
+  padding: 30px 0;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 40px;
+}
+
+
+#banner{
+	background-image: url(http://www.thisisglamorous.com/wp-content/uploads/2015/03/41-Five-Things-21.03.15-35-Five-Things-21.03.jpg);
+	background-position: center center no-repeat;
+  	background-size: cover;
   	box-sizing: border-box;
-  	padding: 40px;
+  	padding: 110px;
   	text-align: center;
+  	position: relative;
   	width: 100%;
+  	height: 450px;
+  	top: 40px;
+}
+#banner:before{
+	position: absolute;
+  	content: "";
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	background-color: rgba(255,173,182,0.6)
+}
+#banner *{
+	position: relative;
+}
+#banner h1{
+  	font-family: "Creepster", cursive;
+  	font-size: 50px;
+  	color: rgba(0,0,0,0.7);
+}
+.profile {
+ 	margin: 70px 60px;
+ 	text-align: justify;
+}
+.profile h3{
+ 	text-align: center;
+ 	font-size: 24px;
+ }
+.profile p{
+ 	font-size: 18px;
+}
+.h-education{
+	margin: 40px auto;
+  	padding: 20px 70px 40px 70px;
+}
+.h-education p{
+	text-align: center;
+}
+.h-education h2{
+	text-align: center;
+}
+.spectrum div {
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+.spectrum p {
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.univ {
+  background-color: #dfaaaa;
+}
+
+.high-school { 
+  	background-color:	#e2b091 ;
+}
+.high-school h4{
+	color: #000;
+}
+.high-school p{
+	color: #000;
+}
+
+.j-high-school {
+  background-color: #683C2C;
 }
